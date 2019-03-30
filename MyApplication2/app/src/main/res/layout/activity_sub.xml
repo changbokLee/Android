@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SubActivity">
+
+    <!-- 단위를 사용할 때는 무조건 dp -->
+    <!-- sp는 dp와 완전히 같다. -->
+    <TextView
+        android:id="@+id/textViewRs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="결과"
+        android:padding="10dp"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goBackButtonClicked"
+        android:text="뒤로가기" />
+
+</LinearLayout>
